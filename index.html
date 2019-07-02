@@ -4,28 +4,44 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css"/>
 		<title>Google</title>
-		<meta name="viewport" content="width = device-width, initial scale = 1.0">
+		<!--<meta name="viewport" content="width = device-width, initial scale = 1.0">-->
  	</head>
 	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="#">Gmail</a></li>
-					<li><a href="#">Image</a></li>
-				</ul>
-			</nav>
-		</header>
-		<section>
-			<img src="googlelogo_color_272x92dp.png" alt="google logo">
+		<div id = "header">
+			<div id = "nav">
+				<div class = menu-item><a href="#">Gmail</a></div>
+				<div class = menu-item><a href="#">Images</a></div>
+				<div class = menu-item>
+
+						<input type ="button" class ="button" value ="Sign In">
+				</div>
+			</div>
+		</div>
+		<div id = "section">
+			<div>
+				<img src="googlelogo_color_272x92dp.png" alt="google logo">
+			</div>
+			<div id = "form">
 				<form action="#">
-					<input type="text" name="Search" value="">
-					<input type="submit" value="Google Search">
-					<input type="submit" value="I'm feeling lucky">
-				</form> 
+					<div id = bar>
+						<input type="text" name="Search" value="">
+					</div> 
+					<div id = button>
+						<div>
+							<input type="submit" value="Google Search">
+						</div>
+						<div>
+							<input type="submit" value="I'm feeling lucky">
+						</div>
+					</div>
+				</form>
+			</div>
+			<div id >
 				<p>
-					Google offered in: <a href="#">Français</a> 
+					Google offered in: <a href="#">Français<a> 
 				</p>
-		</section>
+			</div>
+		</div>
 		<footer>
 			<a href="#">Me contacter !</a></p>
 		</footer>
