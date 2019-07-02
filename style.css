@@ -60,4 +60,26 @@ a
 #footer
 {
 	display: flex;
+	flex-direction: column;
+}
+#lower-low
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#right
+{
+	display: flex;
+	flex-direction: row;
+	font-size: small;
+	justify-content: flex-end;
+}
+
+#left
+{
+	display: flex;
+	flex-direction: row;
+	font-size: small;
+	justify-content: flex-start;
 }
